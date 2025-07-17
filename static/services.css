@@ -1,5 +1,5 @@
 .services_main_page {
-/*
+  /*
   background:url("images/FSD_Home.png"); 
   height: 1438;
 */
@@ -10,7 +10,7 @@
 }
 
 .services_lead_msg {
-  background:url("images/title_Services.jpg"); 
+  background: url("images/title_Services.jpg");
   height: 190px;
   top: -40px;
   z-index: 3;
@@ -18,7 +18,7 @@
 }
 
 .services_lead_msg_shadow {
-  background:url("images/bg_Content_TopGradient.gif");
+  background: url("images/bg_Content_TopGradient.gif");
   height: 130px;
   width: 1200px;
   margin-top: -40px;
@@ -26,7 +26,7 @@
 }
 
 .services_desc_container {
-  background:url("images/bg_ContentHead_Swoosh.jpg");
+  background: url("images/bg_ContentHead_Swoosh.jpg");
   height: 190px;
   width: 817px;
   margin-top: 0px;
@@ -37,7 +37,7 @@
 }
 
 .services_desc_title {
-  font-family: ExoLight, verdana, helvetica, sans-serif;  
+  font-family: ExoLight, verdana, helvetica, sans-serif;
   font-size: 58px;
   color: #009996;
   text-align: center;
@@ -48,7 +48,7 @@
 }
 
 .services_desc_content {
-  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-family: ExoRegular, verdana, helvetica, sans-serif;
   font-size: 18px;
   color: #0b436b;
   text-align: center;
@@ -76,56 +76,56 @@
 }
 
 .services_tech_icon_usb {
-  background:url("images/icon_USB.jpg") no-repeat;
+  background: url("images/icon_USB.jpg") no-repeat;
   width: 200px;
   height: 120px;
 }
 
 .services_tech_icon_ethernet {
-  background:url("images/icon_Ethernet.jpg") no-repeat;
+  background: url("images/icon_Ethernet.jpg") no-repeat;
   width: 200px;
   height: 120px;
 }
 
 .services_tech_icon_arm {
-  background:url("images/icon_ARM.jpg") no-repeat;
+  background: url("images/icon_ARM.jpg") no-repeat;
   width: 200px;
   height: 150px;
 }
 
 .services_tech_icon_linux {
-  background:url("images/icon_Linux.png") no-repeat;
+  background: url("images/icon_Linux.png") no-repeat;
   width: 200px;
   height: 150px;
 }
 
 .services_tech_icon_android {
-  background:url("images/icon_Android.png") no-repeat;
+  background: url("images/icon_Android.png") no-repeat;
   width: 200px;
   height: 150px;
 }
 
 .services_tech_icon_qt {
-  background:url("images/icon_Qt.png") no-repeat;
+  background: url("images/icon_Qt.png") no-repeat;
   width: 200px;
   height: 150px;
 }
 
 .services_tech_title {
-  font-family: ExoBlack, verdana, helvetica, sans-serif;  
+  font-family: ExoBlack, verdana, helvetica, sans-serif;
   font-size: 18px;
   color: #0b436b;
   margin-bottom: 20px;
 }
 
 .services_tech_desc {
-  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-family: ExoRegular, verdana, helvetica, sans-serif;
   font-size: 16px;
   color: #0b436b;
 }
 
 .services_hub {
-  background:url("images/bg_Content_Hub.gif") no-repeat;
+  background: url("images/bg_Content_Hub.gif") no-repeat;
   margin-left: 120px;
   margin-top: 100px;
   width: 228px;
@@ -143,14 +143,14 @@
 }
 
 .services_method_title {
-  font-family: ExoLight, verdana, helvetica, sans-serif;  
+  font-family: ExoLight, verdana, helvetica, sans-serif;
   font-size: 58px;
   color: #009996;
   position: relative;
 }
 
 .services_method_desc {
-  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-family: ExoRegular, verdana, helvetica, sans-serif;
   font-size: 16px;
   color: #0b436b;
   margin-top: 30px;
@@ -159,9 +159,70 @@
 }
 
 .services_method_consultation {
-  background:url("images/btn_CTA_Consultation.png");
+  background: url("images/btn_CTA_Consultation.png");
   height: 48px;
   width: 240px;
   margin-top: 60px;
   position: relative;
+}
+
+.services_platform_section {
+  margin: 40px 0;
+  padding: 20px;
+}
+
+.services_section_divider {
+  height: 2px;
+  background: #f5463d;
+  margin: 30px 0;
+}
+
+.services_content_container {
+  display: flex;
+  gap: 40px;
+  margin: 30px 0;
+}
+
+.services_content_item {
+  flex: 1;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.services_content_header {
+  color: #f5463d;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.services_content_text {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.services_learn_more {
+  color: #f5463d;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #f5463d;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.services_learn_more:hover {
+  background: #f5463d;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .services_content_container {
+    flex-direction: column;
+  }
 }
