@@ -48,6 +48,8 @@
 
 .home_lead_msg_shadow {
   background: url("images/bg_Content_TopGradient.gif");
+  background-size: 100% 150%;
+  background-repeat: no-repeat;
   height: 40px;
   width: 1200px;
   margin-top: -40px;
@@ -164,7 +166,7 @@
   width: 100%;
   padding: 15px 0;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  margin: 10px 0;
+  margin: 0;
   clear: both;
 }
 
