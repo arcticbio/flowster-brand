@@ -162,9 +162,9 @@
 
 .home_flowster_highlight_section {
   width: 100%;
-  padding: 40px 0;
+  padding: 15px 0;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  margin: 30px 0;
+  margin: 10px 0;
   clear: both;
 }
 
@@ -173,7 +173,7 @@
   margin: 0 auto;
   background: white;
   border-radius: 15px;
-  padding: 40px;
+  padding: 30px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   text-align: center;
   border: 3px solid #f5463d;
@@ -225,7 +225,7 @@
 @media (max-width: 768px) {
   .home_flowster_highlight_container {
     margin: 0 20px;
-    padding: 30px 20px;
+    padding: 25px 15px;
   }
 
   .home_flowster_highlight_header {
