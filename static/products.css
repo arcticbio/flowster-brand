@@ -1,0 +1,240 @@
+.products_lead_msg {
+    background: url("images/title_Products.jpg");
+    height: 190px;
+    top: -40px;
+    z-index: 3;
+    position: relative;
+}
+
+.products_lead_msg_shadow {
+    background: url("images/bg_Content_TopGradient.gif");
+    height: 130px;
+    width: 1200px;
+    margin-top: -40px;
+    position: static;
+}
+
+.products_main_page {
+    min-height: 100vh;
+    background-color: #edfffa;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.products_hero_section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.products_hero_content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.products_hero_title {
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.products_hero_subtitle {
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.products_hero_description {
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+.products_features_section,
+.products_how_it_works_section,
+.products_use_cases_section {
+    padding: 80px 20px;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.products_section_title {
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #333;
+}
+
+.products_feature_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.products_feature_card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.products_feature_icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.products_feature_card h3 {
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.products_feature_card p {
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+    color: #666;
+    line-height: 1.6;
+}
+
+.products_process_steps {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.products_process_step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.products_step_number {
+    width: 60px;
+    height: 60px;
+    background: #f5463d;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+
+.products_step_content h3 {
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.products_step_content p {
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+    color: #666;
+    line-height: 1.6;
+}
+
+.products_use_case_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.products_use_case_card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.products_use_case_card h3 {
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.products_use_case_card p {
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+    color: #666;
+    line-height: 1.6;
+}
+
+.products_cta_section {
+    background: #f8f9fa;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.products_cta_content h2 {
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.products_cta_content p {
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.products_cta_button {
+    display: inline-block;
+    background: #f5463d;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background 0.3s;
+    font-family: ExoRegular, verdana, helvetica, sans-serif;
+}
+
+.products_cta_button:hover {
+    background: #d93025;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .products_main_page {
+        width: 100%;
+        margin: 0;
+    }
+
+    .products_hero_title {
+        font-size: 2.5rem;
+    }
+
+    .products_hero_subtitle {
+        font-size: 1.2rem;
+    }
+
+    .products_process_step {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .products_step_number {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .products_features_section,
+    .products_how_it_works_section,
+    .products_use_cases_section {
+        padding: 40px 10px;
+    }
+}
