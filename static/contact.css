@@ -1,0 +1,100 @@
+.contact_main_page {
+/*
+  background:url("images/FSD_Home.png"); 
+  height: 1438;
+*/
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.contact_lead_msg {
+  background:url("images/title_Contact.jpg"); 
+  height: 190px;
+  top: -40px;
+  z-index: 3;
+  position: relative;
+}
+
+.contact_lead_msg_shadow {
+  background:url("images/bg_Content_TopGradient.gif");
+  height: 130px;
+  width: 1200px;
+  margin-top: -40px;
+  position: static;
+}
+
+.contact_main_content {
+  width: 800px;
+  position: relative;
+  float: left;
+}
+
+.contact_form_container {
+  position: relative;
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 16px;
+  margin-left: 140px;
+  z-index: 4;
+}
+
+.contact_form_container form {
+  margin-left: 40px;
+}
+
+.contact_form p label {
+  display: inline-block;
+  vertical-align: top;
+  width: 130px;
+
+  color: #0b436b;
+}
+
+.contact_form p input {
+  width: 300px;
+}
+
+.contact_submit {
+  margin-left: 130px;
+}
+
+.contact_info_container {
+  margin-left: 140px;
+  margin-top:  -60px;
+}
+
+.contact_info_header {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 36px;
+  color: #009996;
+  margin-top: 40px;
+  margin-left: 0px;
+}
+
+.contact_info_text {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 16px;
+  line-height: 23px;
+  color: #0b436b;
+  width: 400px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.contact_info_label {
+  font-family: ExoBold, verdana, helvetica, sans-serif;  
+  font-size: 16px;
+  float: left;
+  width: 100px;
+}
+
+.contact_info_item {
+  float: left;
+}
+
+.contact_thank_you {
+  font-family: ExoRegular, verdana, helvetica, sans-serif;  
+  font-size: 36px;
+  color: #009996;
+}
