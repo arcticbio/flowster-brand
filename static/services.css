@@ -60,74 +60,96 @@
 .services_tech_container {
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 
-.services_tech_container_left {
-  width: 300px;
-  margin-top: 50px;
+.services_tech_item {
+  width: 120px;
+  text-align: center;
   float: left;
+  margin-right: 20px;
+  margin-top: 30px;
 }
 
-.services_tech_container_right {
-  width: 300px;
-  margin-top: 50px;
-  float: right;
+.services_tech_icon_container {
+  width: 100px;
+  height: 80px;
+  /* Fixed height for all icons */
+  margin: 0 auto 15px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .services_tech_icon_usb {
-  background: url("images/icon_USB.jpg") no-repeat;
-  width: 200px;
-  height: 120px;
+  background: url("images/icon_USB.jpg") no-repeat center;
+  background-size: contain;
+  width: 100px;
+  height: 60px;
 }
 
 .services_tech_icon_ethernet {
-  background: url("images/icon_Ethernet.jpg") no-repeat;
-  width: 200px;
-  height: 120px;
+  background: url("images/icon_Ethernet.jpg") no-repeat center;
+  background-size: contain;
+  width: 100px;
+  height: 60px;
 }
 
 .services_tech_icon_arm {
-  background: url("images/icon_ARM.jpg") no-repeat;
-  width: 200px;
-  height: 150px;
+  background: url("images/icon_ARM.jpg") no-repeat center;
+  background-size: contain;
+  width: 100px;
+  height: 75px;
 }
 
 .services_tech_icon_linux {
-  background: url("images/icon_Linux.png") no-repeat;
-  width: 200px;
-  height: 150px;
+  background: url("images/icon_Linux.png") no-repeat center;
+  background-size: contain;
+  width: 100px;
+  height: 75px;
 }
 
 .services_tech_icon_android {
-  background: url("images/icon_Android.png") no-repeat;
-  width: 200px;
-  height: 150px;
+  background: url("images/icon_Android.png") no-repeat center;
+  background-size: contain;
+  width: 100px;
+  height: 75px;
 }
 
 .services_tech_icon_qt {
-  background: url("images/icon_Qt.png") no-repeat;
-  width: 200px;
-  height: 150px;
+  background: url("images/icon_Qt.png") no-repeat center;
+  background-size: contain;
+  width: 100px;
+  height: 75px;
 }
 
 .services_tech_title {
   font-family: ExoBlack, verdana, helvetica, sans-serif;
   font-size: 18px;
   color: #0b436b;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  height: 25px;
+  /* Fixed height for consistent spacing */
+  line-height: 25px;
 }
 
 .services_tech_desc {
   font-family: ExoRegular, verdana, helvetica, sans-serif;
   font-size: 16px;
   color: #0b436b;
+  min-height: 20px;
+  /* Ensures consistent bottom alignment */
 }
 
 .services_hub {
   background: url("images/bg_Content_Hub.gif") no-repeat;
   margin-left: 120px;
-  margin-top: 100px;
+  margin-top: 60px;
   width: 228px;
   height: 228px;
   position: absolute;
@@ -135,7 +157,7 @@
 
 .services_method_container {
   width: 800px;
-  margin-top: 180px;
+  margin-top: 140px;
   margin-bottom: 80px;
   margin-left: 280px;
   margin-bottom: 0px;
@@ -167,8 +189,10 @@
 }
 
 .services_platform_section {
-  margin: 40px 0;
-  padding: 20px;
+  margin: 40px 0 20px 0;
+  /* Reduced bottom margin from 40px to 20px */
+  padding: 10px 20px 10px 20px;
+  /* Reduced bottom padding from 20px to 10px */
 }
 
 .services_section_divider {
